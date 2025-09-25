@@ -1,0 +1,10 @@
+name = "belaynish-worker"
+main = "worker_full.js"
+compatibility_date = "2025-09-25"
+workers_dev = true
+node_compat = false
+
+kv_namespaces = [
+  { binding = "MEMORY_KV", id = "PASTE_MEMORY_KV_ID" },
+  { binding = "JOBS_KV", id = "PASTE_JOBS_KV_ID" }
+]
