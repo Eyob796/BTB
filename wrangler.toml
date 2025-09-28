@@ -5,5 +5,5 @@ type = "javascript"
 
 kv_namespaces = [
   { binding = "MEMORY_KV", id = "9a915108-7b9e-4562-9549-1e575a7fd412" },
-  { binding = "JOBS_KV", id = "PASTE_JOBS_KV_ID" }
+  { binding = "JOBS_KV", id = "08d57846-7e8a-4776-93af-881eb06d4839" }
 ]
